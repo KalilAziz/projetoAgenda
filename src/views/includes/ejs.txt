@@ -1,0 +1,28 @@
+<% controle de fluxo(if, for, while...)  %>
+<%= Imprime escapando caracteres  %>
+<%- Imprime sem escapar caracteres  %>
+<%# comentário %>
+<%- include('CAMINHO/ARQUIVO') %>
+
+
+Exercício 1
+<%=titulo%> <br>
+<%-titulo%>
+
+
+Exercício 2
+<% if(typeof titulo !== 'undefined') { %>
+    <%= titulo %>
+<% } else{%>
+        O título não foi enviado
+<% } %>
+
+
+Exercício 3
+<% numeros.forEach(num => { %>
+    <%= num %> <br>
+<% }) %>
+
+Podemos declarar uma variável 'global'
+res.locals.umaVariavelLocal = 'Exemplo...'
+ 

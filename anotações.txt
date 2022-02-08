@@ -1,0 +1,6 @@
+Estamos usando o padrão mvc(model, view e controler), onde temos a rota, onde ela irá decidir qual controler irá ser utilizado, quem vai controlar aquela rota. 
+
+Exemplo: Se entrarmos na Home, quem irá controlar nossa rota será o homeController.
+
+O único trabalho do controller é decidir 'coisas' sobre essa rota. Ele irá apresentar o model, que irá controlar os dados da base de dados e apresentar também o view, que será usado para renderizar a aplicação. Decidindo qual o model e view utilizado.
+
